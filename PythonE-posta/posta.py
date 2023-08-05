@@ -22,18 +22,20 @@ def send_email(sender_email, sender_password, receiver_email, subject, body):
             server.starttls()  # TLS güvenli bağlantı başlat
             server.login(sender_email, sender_password)
             server.sendmail(sender_email, receiver_email, message.as_string())
+            
 
         print("E-posta başarıyla gönderildi.")
     except Exception as e:
         print(f"E-posta gönderme hatası: {e}")
 
 # Kullanıcı bilgilerini girin
-sender_email = "alii.onall00@gmail.com"
-sender_password = "plsidgenkgfnuoar"
+sender_email = "alıcı e-posta adresiniz"
+sender_password = "şifreniz"
 receiver_email = "tahaegeaydin19@gmail.com"
-subject = "Merhaba TAHA EGE AYDIN"
+subject = "başlık"
 body = "Bu bir test e-postasıdır."
 
 
 # E-posta gönderme işlemi
 send_email(sender_email, sender_password, receiver_email, subject, body)
+
