@@ -29,11 +29,11 @@ def send_email(sender_email, sender_password, receiver_email, subject, body):
         print(f"E-posta gönderme hatası: {e}")
 
 # Kullanıcı bilgilerini girin
-sender_email = "alıcı e-posta adresiniz"
-sender_password = "şifreniz"
-receiver_email = "tahaegeaydin19@gmail.com"
-subject = "başlık"
-body = "Bu bir test e-postasıdır."
+sender_email = "alii.onall00@gmail.com"  # E-posta adresinizi girin
+sender_password = "cfkv kyxt ngci zorl"
+receiver_email = "citlik24@gmail.com"
+subject = "başlik"
+body = "selamaliküm"
 
 
 # E-posta gönderme işlemi
