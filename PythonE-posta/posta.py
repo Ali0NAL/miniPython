@@ -4,8 +4,8 @@ from email.mime.multipart import MIMEMultipart
 
 def send_email(sender_email, sender_password, receiver_email, subject, body):
     # E-posta sunucusu ayarları
-    smtp_server = 'smtp.gmail.com'  # Gmail için örnek. Diğer e-posta sağlayıcıları için ayarlar farklı olabilir.
-    smtp_port = 587  # TLS bağlantısı için kullanılan port numarası
+    smtp_server = '**'  # Gmail için örnek. Diğer e-posta sağlayıcıları için ayarlar farklı olabilir.
+    smtp_port = **  # TLS bağlantısı için kullanılan port numarası
 
     try:
         # E-posta mesajını oluşturma
@@ -30,7 +30,7 @@ def send_email(sender_email, sender_password, receiver_email, subject, body):
 
 # Kullanıcı bilgilerini girin
 sender_email = "alii.onall00@gmail.com"  # E-posta adresinizi girin
-sender_password = "cfkv kyxt ngci zorl"
+sender_password = "**"
 receiver_email = "citlik24@gmail.com"
 subject = "başlik"
 body = "selamaliküm"
